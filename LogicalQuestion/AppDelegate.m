@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  LogicalQuestion
 //
-//  Created by Deepak on 20/12/15.
-//  Copyright © 2015 Deepak. All rights reserved.
+//  Created by Deepak on 20/05/16.
+//  Copyright © 2016 Deepak. All rights reserved.
 //
 
 #import "AppDelegate.h"

@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00361E611C500041008E3888 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00361E601C500041008E3888 /* SecondVC.m */; };
+		0039DA781C67C15D00B93D1E /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039DA771C67C15D00B93D1E /* Utility.m */; };
 		007D6F021C269130005E2545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 007D6F011C269130005E2545 /* main.m */; };
 		007D6F051C269130005E2545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 007D6F041C269130005E2545 /* AppDelegate.m */; };
 		007D6F081C269130005E2545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007D6F071C269130005E2545 /* ViewController.m */; };
 		007D6F0B1C269130005E2545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D6F091C269130005E2545 /* Main.storyboard */; };
 		007D6F0D1C269131005E2545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D6F0C1C269131005E2545 /* Assets.xcassets */; };
 		007D6F101C269131005E2545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D6F0E1C269131005E2545 /* LaunchScreen.storyboard */; };
+		007D6F191C26C886005E2545 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 007D6F181C26C886005E2545 /* Star.m */; };
+		00A3EE711D26D2DE00B56018 /* CodilityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3EE701D26D2DE00B56018 /* CodilityTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00361E5F1C500041008E3888 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		00361E601C500041008E3888 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		0039DA761C67C15D00B93D1E /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		0039DA771C67C15D00B93D1E /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		007D6EFD1C269130005E2545 /* LogicalQuestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicalQuestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007D6F011C269130005E2545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		007D6F031C269130005E2545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,11 @@
 		007D6F0C1C269131005E2545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007D6F0F1C269131005E2545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007D6F111C269131005E2545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007D6F171C26C886005E2545 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		007D6F181C26C886005E2545 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
+		00A3EE6F1D26D2DE00B56018 /* CodilityTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodilityTest.h; sourceTree = "<group>"; };
+		00A3EE701D26D2DE00B56018 /* CodilityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodilityTest.m; sourceTree = "<group>"; };
+		00A3EE721D26D38E00B56018 /* CodilityQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodilityQuestion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 		007D6EFF1C269130005E2545 /* LogicalQuestion */ = {
 			isa = PBXGroup;
 			children = (
+				0039DA761C67C15D00B93D1E /* Utility.h */,
+				0039DA771C67C15D00B93D1E /* Utility.m */,
 				007D6F031C269130005E2545 /* AppDelegate.h */,
 				007D6F041C269130005E2545 /* AppDelegate.m */,
 				007D6F061C269130005E2545 /* ViewController.h */,
@@ -67,6 +82,13 @@
 				007D6F0E1C269131005E2545 /* LaunchScreen.storyboard */,
 				007D6F111C269131005E2545 /* Info.plist */,
 				007D6F001C269130005E2545 /* Supporting Files */,
+				007D6F171C26C886005E2545 /* Star.h */,
+				007D6F181C26C886005E2545 /* Star.m */,
+				00361E5F1C500041008E3888 /* SecondVC.h */,
+				00361E601C500041008E3888 /* SecondVC.m */,
+				00A3EE6F1D26D2DE00B56018 /* CodilityTest.h */,
+				00A3EE701D26D2DE00B56018 /* CodilityTest.m */,
+				00A3EE721D26D38E00B56018 /* CodilityQuestion.h */,
 			);
 			path = LogicalQuestion;
 			sourceTree = "<group>";
@@ -152,6 +174,10 @@
 				007D6F081C269130005E2545 /* ViewController.m in Sources */,
 				007D6F051C269130005E2545 /* AppDelegate.m in Sources */,
 				007D6F021C269130005E2545 /* main.m in Sources */,
+				00361E611C500041008E3888 /* SecondVC.m in Sources */,
+				0039DA781C67C15D00B93D1E /* Utility.m in Sources */,
+				00A3EE711D26D2DE00B56018 /* CodilityTest.m in Sources */,
+				007D6F191C26C886005E2545 /* Star.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +324,7 @@
 				007D6F161C269131005E2545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
